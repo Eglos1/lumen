@@ -1,0 +1,17 @@
+{
+  "name": "lumen",
+  "version": "0.1.0",
+  "description": "Lumen — Compute-Over-Network YouTube PWA: 144p transport, client-side WebGPU super-resolution",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "onnxruntime-web": "^1.20.0"
+  }
+}
